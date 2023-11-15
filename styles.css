@@ -1,0 +1,98 @@
+/* Basic styles for the Netflix homepage */
+body {
+  font-family: lucida, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+nav img {
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+main {
+  padding: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 5px 0;
+   color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-family: lucida;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-family: lucida;
+  color: white;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: lucida;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.content h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: lucidal;
+   color: white;
+}
+
+.trending {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.content-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: lucida;
+   color: white;
+}
+
+footer {
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
+
